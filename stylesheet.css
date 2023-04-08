@@ -13,18 +13,24 @@ nav {
     position: absolute;
 }
 nav, ul, li {
+    margin: 10px;
+    left: 90px;
+    bottom: 37px;
     position: relative;
     display: inline-block;
     text-decoration: none;
 
 }
-nav, h1 {
-
+h1 {
+    font-style: ;
+    font-size: 40px;
 }
 nav {
+    
     position: relative;
-    left: 80px;
+    left: 190px;
 }
+
 .box1 {
     position: relative;
     border-radius: 50%; 
@@ -32,6 +38,7 @@ nav {
     width: 90px;
     height: 100px;
     background-color: lightcoral;
+    text-align: center;
 }
 .box2 {
     position: relative;
@@ -40,6 +47,7 @@ nav {
     width: 90px;
     height: 100px;
     background-color: lightblue;
+    text-align: center;
 }
 .box3 {
     position: relative;
@@ -48,6 +56,11 @@ nav {
     width: 90px;
     height: 100px;
     background-color: lightgreen;
+    text-align: center;
+}
+.box-text {
+    padding-top: 18px;
+    vertical-align: middle;
 }
 section {
     left: 399px;
@@ -55,14 +68,13 @@ section {
     position: absolute;
 }
 .aboutMe, h2 {
-    padding-bottom: 0;
     font-size: 90px;
 }
 
 .aboutMe, h3 {
     position: relative;
     font-size: 40px;
-    bottom: 85px;
+    bottom: 10px;
 }
 
 footer {
