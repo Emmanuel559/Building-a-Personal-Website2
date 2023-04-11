@@ -6,8 +6,13 @@ body {
 
 
 img {
+    position: relative;
+    left: 20px;
     height: 500px;
     border-radius: 80px;
+}
+img:hover {
+    filter: drop-shadow(-10px -10px 10px rgb(67, 67, 67));
 }
 nav {
     position: absolute;
@@ -19,10 +24,14 @@ nav, ul, li {
     position: relative;
     display: inline-block;
     text-decoration: none;
-
+    
+}
+a:link{
+    text-decoration: none;
+    
 }
 h1 {
-    font-style: ;
+    
     font-size: 40px;
 }
 nav {
@@ -63,18 +72,20 @@ nav {
     vertical-align: middle;
 }
 section {
-    left: 399px;
-    bottom: 290px;
+    left: 429px;
+    bottom: 230px;
     position: absolute;
 }
 .aboutMe, h2 {
+    position: relative;
+    top: 30px;
     font-size: 90px;
 }
 
 .aboutMe, h3 {
     position: relative;
     font-size: 40px;
-    bottom: 10px;
+    bottom: 40px;
 }
 
 footer {
