@@ -10,11 +10,15 @@ img {
     left: 20px;
     height: 500px;
     border-radius: 80px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
 }
 img:hover {
     filter: drop-shadow(-10px -10px 10px rgb(67, 67, 67));
 }
 nav {
+    flex-direction: column-r;
     position: absolute;
 }
 nav, ul, li {
@@ -27,8 +31,12 @@ nav, ul, li {
     
 }
 a:link{
+    
     text-decoration: none;
     
+}
+a:hover {
+    color: red;
 }
 h1 {
     
@@ -38,6 +46,10 @@ nav {
     
     position: relative;
     left: 190px;
+}
+nav p {
+    position: relative;
+    bottom: 20px;
 }
 
 .box1 {
